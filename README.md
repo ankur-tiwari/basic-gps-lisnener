@@ -1,5 +1,7 @@
-# Basic GPS Lisnener
+# Basic GPS listener
 GT06 | GT02 | AIS140 | Teltonika | All GPS data receiving script in Node Js
+
+This is a basic GPS listener, can be use for GT06, GT02, GT06N, GT06A, GT02D, AIS140 and other GPS devices. The listnere is created using basic node JS. 
 
 # Installation 
 
