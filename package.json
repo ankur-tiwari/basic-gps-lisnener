@@ -1,0 +1,36 @@
+{
+  "name": "basic-gps-lisnener",
+  "version": "0.0.1",
+  "description": "This is a basic gps lisnener which can be use to get data from gt02, gt06, gt06N, AIS140 device\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D& other devices",
+  "main": "basic-lisnener.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankur-tiwari/basic-gps-lisnener.git"
+  },
+  "keywords": [
+    "gps",
+    "gps",
+    "lisnener",
+    "gt06n",
+    "listner",
+    "gt02",
+    "listner",
+    "ais140",
+    "listner",
+    "gps",
+    "listner"
+  ],
+  "author": "Ankur Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankur-tiwari/basic-gps-lisnener/issues"
+  },
+  "homepage": "https://github.com/ankur-tiwari/basic-gps-lisnener#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "moment": "^2.29.1"
+  }
+}
