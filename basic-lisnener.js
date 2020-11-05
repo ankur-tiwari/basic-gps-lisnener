@@ -15,6 +15,8 @@ net.createServer(function(sock) {
     sock.on('data', function(data) {
         //converte any kind of data into human readable form with the help  utf8 charset
         var result = data.toString('utf8');
+    	//check the console in terminal
+    	console.log(result);
         //Read the device manual carefully and you can split string on the basic of that
     });
 
@@ -22,7 +24,7 @@ net.createServer(function(sock) {
 
 //function to write logs in our file
 function write_log(write_content) {
-	fs.appendFile('/var/www/fleetpro/log_fbm.txt', write_content, function (err) {
+	fs.appendFile('/var/www/logs/server-log.txt', write_content, function (err) {
 		if (err) { throw err; }
 	});
 }
